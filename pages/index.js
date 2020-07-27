@@ -6,7 +6,7 @@ return(
   <div>
     <div style={{zIndex: "-1",position: "absolute"}}>
         <div style={{overflow: "hidden",width: "100vw",display: "flex",justifyContent: "center"}}>
-          <img src="/bkg.png" alt="background" style={{width: "650px"}}/>
+          <img src="/bkg.png" alt="background" style={{width: "650px",height: "840.92"}}/>
         </div>
     </div>
     <Section direction="column">
