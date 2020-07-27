@@ -1,11 +1,33 @@
+@font-face{
+    font-family: "Monoton";
+    src: url("/fonts/Monoton/Monoton-Regular.ttf")
+}
+@font-face{
+    font-family: "Righteous";
+    src: url("/fonts/Righteous/Righteous-Regular.ttf")
+}
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(235,94,68);
+    font-family: "Righteous";
+    color: white;
+    letter-spacing: 3px;
 }
 body {
     background-color:rgb(98,73,153);
 }
 h1 {
-    color: white;
+    font-size: 50px;
 }
-
+p{ 
+    color: rgb(235,94,68);
+}
+.accentTitle {
+    color: white;
+    font-size: 30px;
+}
+.center-translate { 
+    transform: translate(-40%, 0);
+    position: absolute;
+}
+.section * {
+    text-align: center;
+}

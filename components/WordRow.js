@@ -10,11 +10,11 @@ export default function WordRow(props){
         };
         // console.log(array)
         const NewRow = array.map((text,index)=>{
-            return(<div key={index}>{text}</div>)
+            return(<div key={index} style={{fontSize: "30px",letterSpacing: "10px"}}>{text}</div>)
         });
         return(
             <div className="wordRow">
-                <Section>
+                <Section justify="left">
                     {NewRow}
                 </Section>
             </div>

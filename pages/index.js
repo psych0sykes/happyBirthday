@@ -1,10 +1,34 @@
-import WordSection from "../components/WordSection";
+import Section from "../components/Section";
 
 export default function Home(){
 
 return(
   <div>
-    <WordSection word="happy"/>
+    <div style={{zIndex: "-1",position: "absolute"}}>
+        <div style={{overflow: "hidden",width: "100vw",display: "flex",justifyContent: "center"}}>
+          <img src="/bkg.png" alt="background" style={{width: "650px"}}/>
+        </div>
+    </div>
+    <Section direction="column">
+      <h1>
+        you're invited
+      </h1>
+      <h2>
+        Hugo turns 2!
+      </h2>
+      <div>
+        a party will be held on:
+      </div>
+      <h2>
+        july 30th
+      </h2>
+      <div>
+        12:30 - 4:00 pm
+      </div>
+      <div style={{width: "200px",marginTop: "35px"}}>
+          it will be a water party, bring swimsuits and towels!
+      </div>
+    </Section>
   </div>
-)
+  )
 }
