@@ -31,3 +31,6 @@ p{
 .section * {
     text-align: center;
 }
+.tallText {
+    line-height: 35px;
+}

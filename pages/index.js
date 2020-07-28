@@ -6,18 +6,23 @@ return(
   <div>
     <div style={{zIndex: "-1",position: "absolute",width: "100%"}}>
         <div style={{overflow: "hidden",width: "100%", display: "flex",justifyContent: "center"}}>
-          <img src="/bkg.png" alt="background" style={{width: "auto",height: "840px"}}/>
+          <img src="/bkg.png" alt="background" style={{width: "auto",height: "840px !important"}}/>
         </div>
     </div>
     <Section direction="column">
       <h1>
-        you're invited
+        <div style={{marginTop: "45px"}}>
+          you're
+        </div>
+        <div style={{marginTop: "25px"}}>
+          invited
+        </div>
       </h1>
       <h2>
         Hugo turns 2!
       </h2>
-      <div>
-        a party will be held on:
+      <div className="tallText" style={{width: "150px"}}>
+          a party will be held on:
       </div>
       <h2>
         july 30th
@@ -25,7 +30,7 @@ return(
       <div>
         12:30 - 4:00 pm
       </div>
-      <div style={{width: "200px",marginTop: "35px"}}>
+      <div className="tallText" style={{width: "150px",marginTop: "35px"}}>
           it will be a water party, bring swimsuits and towels!
       </div>
     </Section>
